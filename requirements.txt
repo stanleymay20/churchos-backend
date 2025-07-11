@@ -1,0 +1,48 @@
+# CHURCHOS Backend Requirements
+# Sacred Operating System for Prophetic Church Governance
+
+# Core FastAPI Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.25
+# Note: psycopg2-binary may fail on Windows. If so, install with: pip install psycopg2-binary --only-binary :all:
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Authentication & Security
+firebase-admin==6.4.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+
+# AI & OpenAI Integration
+openai==1.12.0
+aiohttp==3.9.1
+
+# WebRTC & Real-time Communication
+aiortc==1.5.0
+websockets==12.0
+
+# Data Validation & Serialization
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# HTTP Client
+httpx==0.26.0
+requests==2.31.0
+
+# CORS & Middleware
+fastapi-cors==0.0.6
+
+# Development & Testing
+pytest==7.4.4
+pytest-asyncio==0.23.2
+black==23.12.1
+isort==5.13.2
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3 
